@@ -34,6 +34,20 @@ nav ul li a {
 .dark2 {
   color: #474747;
 }
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+  margin: 0;
+}
+.section-desciption {
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+  margin-top: 30px;
+  margin: 30px 0;
+}
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: 700;
@@ -47,6 +61,7 @@ nav ul li a {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left 50px, bottom right;
+  background-color: #fff8f3;
 }
 /* banner */
 .banner {
@@ -72,4 +87,54 @@ nav ul li a {
 }
 .banner-img {
   width: 585px;
+}
+/* main body style  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.about {
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 156px;
+}
+.about-itmes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 22px;
+}
+.about-tiem {
+  text-align: center;
+}
+.item {
+  color: #757575;
+  font-size: 20px;
+  margin: 0;
+}
+.item-desciption {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.skills {
+  margin-top: 130px;
+}
+.slill-items {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.skill-item {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.skill-item p {
+  font-size: 16px;
+  color: #757575;
 }
